@@ -3,6 +3,8 @@
 
 ![image.png](http://oss.dblearn.cn/dbblog/20200314/be0b7b34f536421690a41e4063ddecc5.png)
 
+# 介绍
+
 ## 简介
 这是一个基于Springboot2.x，vue2.x的前后端分离的开源博客系统，提供 前端界面+管理界面+后台服务 的整套系统源码。响应式设计，手机、平板、PC，都有良好的视觉效果！
 
@@ -29,7 +31,7 @@
 - 七牛云 图床
 
 ## 站点演示
-[www.dblearn.cn](www.dblearn.cn)
+[www.zhaofutao.com](www.zhaofutao.com)
 
 ## 模块分层
 ### 后端模块
@@ -153,19 +155,3 @@ dbblog-core -> dbblog-auth -> dbblog-manage -> dbblog-portal -> dbblog-search
 ![3.png](http://oss.dblearn.cn/dbblog/20190310/7c641e6681ef468599dbe152bc0ea02a.png)
 
 ![4.png](http://oss.dblearn.cn/dbblog/20190310/ee69937e2bd9494f882da788932123ca.png)
-
-
-## 碎碎念
-上大学的时候做过博客，技术选型也从一开始的SSM+JSP [博客1](https://github.com/llldddbbb/Blog) 
-
---> 过渡到分模块的SpringBoot [博客2](https://github.com/llldddbbb/Blog2) 
-
--->  到现在的前后端分离博客 [博客3](https://github.com/llldddbbb/dbblog) 
-
-如果是初学Java的朋友也可以跟着流程借鉴借鉴这些代码，试着实现一个自己的博客，相信能对你的成长有所帮助！
-
-如果有心，不妨请博主喝杯茶::laughing::
-
-![支付.jpg](http://oss.dblearn.cn/dbblog/20190310/7517419c57e14d548ec13f4a550edbc0.jpg)
-
-最后的最后，我的github地址是[https://github.com/llldddbbb/dbblog](https://github.com/llldddbbb/dbblog)，开源不易，一定要给我==Star==哦！！
