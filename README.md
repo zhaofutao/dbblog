@@ -26,7 +26,7 @@
 - 七牛云 图床
 
 ## 站点演示
-[www.zhaofutao.com](www.zhaofutao.com)
+[www.zhaofutao.com](https://www.zhaofutao.com)
 
 ## 模块分层
 ### 后端模块
