@@ -11,7 +11,7 @@
     <router-link id="logo" to="/">
       <img src="../../../assets/logo.png">
       <span class="title">赵付涛的笔记本</span>
-      <span class="motto">但行好事，莫问前程。</span>
+      <span class="motto"></span>
     </router-link>
     <ul id="nav">
       <li>
