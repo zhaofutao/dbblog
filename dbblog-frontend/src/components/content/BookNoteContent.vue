@@ -13,7 +13,6 @@
       </iv-col>
       <iv-col :xs="0" :sm="0" :md="0" :lg="7">
         <div class="layout-right">
-          <recommend></recommend>
           <iv-affix :offset-top="60" >
             <side-toc style="margin-top: 15px;"  ></side-toc>
           </iv-affix>
@@ -29,7 +28,6 @@ import BookNotePageFooter from '@/components/views/BookNote/BookNotePageFooter'
 import About from '@/components/views/About'
 import FriendLinks from '@/components/views/FriendLinks'
 import SideToc from '@/components/views/SideToc'
-import Recommend from '@/components/views/Recommend'
 import TOC from '@/common/js/MarkdownToc'
 // TOC滚动监听
 import TocScrollSpy from '@/common/js/TocScrollSpy'
@@ -46,8 +44,7 @@ export default {
     'bookNote-page-footer': BookNotePageFooter,
     'about': About,
     'friend-links': FriendLinks,
-    'side-toc': SideToc,
-    'recommend': Recommend
+    'side-toc': SideToc
   },
   created: function () {
     this.getBookNote(this.$route.params.bookNoteId)

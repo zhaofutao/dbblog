@@ -3,7 +3,7 @@
     <img class="background" src="../../assets/background.jpg" alt="">
     <img class="avatar" src="../../assets/avatar.jpg" alt="">
     <p class="name">赵付涛</p>
-    <p class="desc">Write the code, Change the World</p>
+    <p class="desc">但行好事，莫问前程。</p>
     <ul class="social">
       <li><a href="https://github.com/zhaofutao" target="_blank"><img src="../../assets/icon/GitHub.png" alt=""></a></li>
     </ul>
@@ -20,7 +20,7 @@
       </iv-row>
       <iv-row :gutter="20">
         <iv-col :span="6">
-          <p class="title">Vue</p>
+          <p class="title">SpringBoot</p>
         </iv-col>
         <iv-col :span="18">
           <iv-progress status="wrong" :hide-info="true" :stroke-width="8" :percent="40" class="bar"></iv-progress>
@@ -28,7 +28,7 @@
       </iv-row>
       <iv-row :gutter="20">
         <iv-col :span="6">
-          <p class="title">Go</p>
+          <p class="title">ElasticSearch</p>
         </iv-col>
         <iv-col :span="18">
           <iv-progress status="success" :hide-info="true" :stroke-width="8" :percent="10" class="bar"></iv-progress>
@@ -36,7 +36,7 @@
       </iv-row>
       <iv-row :gutter="20">
         <iv-col :span="6">
-          <p class="title">Cloud</p>
+          <p class="title">业务架构</p>
         </iv-col>
         <iv-col :span="18">
           <iv-progress status="active" :hide-info="true" :stroke-width="8" :percent="30" class="bar"></iv-progress>

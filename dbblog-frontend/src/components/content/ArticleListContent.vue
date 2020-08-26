@@ -14,7 +14,6 @@
       </iv-col>
       <iv-col :xs="0" :sm="0" :md="0" :lg="7">
         <div class="layout-right">
-          <recommend></recommend>
           <tag-wall style="margin-top: 15px;"></tag-wall>
         </div>
       </iv-col>
@@ -27,7 +26,6 @@ import ArticleListHeader from '@/components/views/Article/ArticleListHeader'
 import ArticlePageContent from '@/components/views/Article/ArticlePageContent'
 import ArticlePageFooter from '@/components/views/Article/ArticlePageFooter'
 import ArticleListCell from '@/components/views/Article/ArticleListCell'
-import Recommend from '@/components/views/Recommend'
 import TagWall from '@/components/views/TagWall'
 import BrowseMore from '@/components/views/BrowseMore'
 import merge from 'lodash/merge'
@@ -134,7 +132,6 @@ export default {
     'article-page-content': ArticlePageContent,
     'article-page-footer': ArticlePageFooter,
     'article-list-cell': ArticleListCell,
-    'recommend': Recommend,
     'tag-wall': TagWall,
     'browse-more': BrowseMore
   }

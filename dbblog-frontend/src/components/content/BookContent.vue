@@ -58,7 +58,6 @@
       </iv-col>
       <iv-col :xs="0" :sm="0" :md="0" :lg="7">
         <div class="layout-right">
-          <recommend></recommend>
         </div>
       </iv-col>
     </iv-row>
@@ -69,7 +68,6 @@
 import {VueTabs, VTab} from 'vue-nav-tabs'
 import 'vue-nav-tabs/themes/paper.css'
 import BookCatalog from '@/components/views/Book/BookCatalog'
-import Recommend from '@/components/views/Recommend'
 import SideToc from '@/components/views/SideToc'
 // mixin
 import {mixin} from '@/utils'
@@ -86,7 +84,6 @@ export default {
     'vue-tabs': VueTabs,
     'v-tab': VTab,
     'book-catalog': BookCatalog,
-    'recommend': Recommend,
     'side-toc': SideToc
   },
   created () {

@@ -26,7 +26,6 @@
       </iv-col>
       <iv-col :xs="0" :sm="0" :md="0" :lg="7">
         <div class="layout-right">
-          <recommend></recommend>
           <tag-wall style="margin-top: 15px;"></tag-wall>
         </div>
       </iv-col>
@@ -42,7 +41,6 @@ import BookPageFooter from '@/components/views/Book/BookPageFooter'
 import BookListCell from '@/components/views/Book/BookListCell'
 import BookNoteListCell from '@/components/views/BookNote/BookNoteListCell'
 import BookReadingCell from '@/components/views/Book/BookReadingCell'
-import Recommend from '@/components/views/Recommend'
 import TagWall from '@/components/views/TagWall'
 import BrowseMore from '@/components/views/BrowseMore'
 import merge from 'lodash/merge'
@@ -187,7 +185,6 @@ export default {
     'book-page-footer': BookPageFooter,
     'book-list-cell': BookListCell,
     'book-reading-cell': BookReadingCell,
-    'recommend': Recommend,
     'tag-wall': TagWall,
     'browse-more': BrowseMore,
     'book-note-list-cell': BookNoteListCell,

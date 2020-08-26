@@ -16,7 +16,6 @@
       </iv-col>
       <iv-col :xs="0" :sm="0" :md="0" :lg="7">
         <div class="layout-right">
-          <recommend></recommend>
           <tag-wall style="margin-top: 15px;"></tag-wall>
         </div>
       </iv-col>
@@ -28,7 +27,6 @@
 import TimeLineHeader from '@/components/views/TimeLine/TimeLineHeader'
 import ArchiveListCell from '@/components/views/Archive/ArchiveListCell'
 import ArchiveListTimeTitle from '@/components/views/Archive/ArchiveListTimeTitle'
-import Recommend from '@/components/views/Recommend'
 import TagWall from '@/components/views/TagWall'
 
 export default {
@@ -41,7 +39,6 @@ export default {
     'timeline-header': TimeLineHeader,
     'archive-list-time-title': ArchiveListTimeTitle,
     'archive-list-cell': ArchiveListCell,
-    'recommend': Recommend,
     'tag-wall': TagWall
   },
   created () {
