@@ -11,7 +11,7 @@
     <h4>技能值</h4>
     <div class="progresses">
       <iv-row :gutter="20">
-        <iv-col :span="6">
+        <iv-col :span="12">
           <p class="title">Java</p>
         </iv-col>
         <iv-col :span="18">
@@ -19,7 +19,7 @@
         </iv-col>
       </iv-row>
       <iv-row :gutter="20">
-        <iv-col :span="6">
+        <iv-col :span="12">
           <p class="title">SpringBoot</p>
         </iv-col>
         <iv-col :span="18">
@@ -27,7 +27,7 @@
         </iv-col>
       </iv-row>
       <iv-row :gutter="20">
-        <iv-col :span="6">
+        <iv-col :span="12">
           <p class="title">ElasticSearch</p>
         </iv-col>
         <iv-col :span="18">
@@ -35,7 +35,7 @@
         </iv-col>
       </iv-row>
       <iv-row :gutter="20">
-        <iv-col :span="6">
+        <iv-col :span="12">
           <p class="title">业务架构</p>
         </iv-col>
         <iv-col :span="18">
