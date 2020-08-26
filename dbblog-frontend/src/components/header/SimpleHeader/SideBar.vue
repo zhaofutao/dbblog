@@ -5,8 +5,8 @@
         <div class="top-area">
           <img src="../../../assets/background.jpg" alt="">
           <div class="site-info">
-            <h1 class="site-name">DB's Blog</h1>
-            <h1 class="site-desc">Write the code, Change the World</h1>
+            <h1 class="site-name">赵付涛的笔记本</h1>
+            <h1 class="site-desc">但行好事，莫问前程。</h1>
           </div>
         </div>
         <div class="sidebar-menus" >

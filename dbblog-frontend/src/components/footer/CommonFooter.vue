@@ -16,8 +16,8 @@ export default {
     return {
       siteInfo: {
         icp: '沪ICP备2020025679号-1',
-        copyright: '版权所有 © 2020 - 2023',
-        copyright_desc: '以商业目的使用本网站内容需获许可，非商业目的使用授权遵循CC BY-NC 4.0'
+        copyright: '版权所有 ©2020',
+        copyright_desc: '版权所有，翻版必究。'
       }
     }
   }

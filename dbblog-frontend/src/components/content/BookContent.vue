@@ -70,7 +70,6 @@ import {VueTabs, VTab} from 'vue-nav-tabs'
 import 'vue-nav-tabs/themes/paper.css'
 import BookCatalog from '@/components/views/Book/BookCatalog'
 import Recommend from '@/components/views/Recommend'
-import SocialSection from '@/components/views/Comment/SocialSection'
 import SideToc from '@/components/views/SideToc'
 // mixin
 import {mixin} from '@/utils'
@@ -87,7 +86,6 @@ export default {
     'vue-tabs': VueTabs,
     'v-tab': VTab,
     'book-catalog': BookCatalog,
-    'social-section': SocialSection,
     'recommend': Recommend,
     'side-toc': SideToc
   },

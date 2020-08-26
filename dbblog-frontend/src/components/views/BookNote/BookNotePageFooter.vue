@@ -6,8 +6,6 @@
 </template>
 
 <script type="text/ecmascript-6">
-import LicenseTag from '@/components/views/LicenseTag'
-import SocialSection from '@/components/views/Comment/SocialSection'
 
 export default {
   methods: {
@@ -16,8 +14,6 @@ export default {
     }
   },
   components: {
-    'license-tag': LicenseTag,
-    'social-section': SocialSection
   },
   props: {
     postId: Number
