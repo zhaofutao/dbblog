@@ -27,7 +27,6 @@ import ArticlePageHeader from '@/components/views/Article/ArticlePageHeader'
 import ArticlePageContent from '@/components/views/Article/ArticlePageContent'
 import ArticlePageFooter from '@/components/views/Article/ArticlePageFooter'
 import About from '@/components/views/About'
-import FriendLinks from '@/components/views/FriendLinks'
 import SideToc from '@/components/views/SideToc'
 import TOC from '@/common/js/MarkdownToc'
 // TOC滚动监听
@@ -44,7 +43,6 @@ export default {
     'article-page-content': ArticlePageContent,
     'article-page-footer': ArticlePageFooter,
     'about': About,
-    'friend-links': FriendLinks,
     'side-toc': SideToc
   },
   created: function () {

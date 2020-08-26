@@ -11,10 +11,7 @@ import CommonFooter from '@/components/footer/CommonFooter'
 // 首页
 import HomeContent from '@/components/content/HomeContent'
 import ArticleContent from '@/components/content/ArticleContent'
-import BookNoteContent from '@/components/content/BookNoteContent'
-import BookContent from '@/components/content/BookContent'
 import ArticleListContent from '@/components/content/ArticleListContent'
-import BookListContent from '@/components/content/BookListContent'
 import TimeLineContent from '@/components/content/TimeLineContent'
 import SearchResultContent from '@/components/content/SearchResultContent'
 
@@ -84,48 +81,6 @@ let router = new Router({
           },
           meta: {
             title: '博文搜索'
-          }
-        },
-        {
-          path: 'bookNote/:bookNoteId',
-          name: 'bookNote',
-          components: {
-            header: SimpleHeader,
-            content: BookNoteContent,
-            footer: CommonFooter
-          }
-        },
-        {
-          path: 'book/:bookId',
-          name: 'book',
-          components: {
-            header: SimpleHeader,
-            content: BookContent,
-            footer: CommonFooter
-          }
-        },
-        {
-          path: 'books',
-          name: 'books',
-          components: {
-            header: SimpleHeader,
-            content: BookListContent,
-            footer: CommonFooter
-          },
-          meta: {
-            title: '阅读'
-          }
-        },
-        {
-          path: 'books/category/:id',
-          name: 'books/category',
-          components: {
-            header: SimpleHeader,
-            content: BookListContent,
-            footer: CommonFooter
-          },
-          meta: {
-            title: '阅读'
           }
         },
         {
