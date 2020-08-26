@@ -13,7 +13,6 @@ import HomeContent from '@/components/content/HomeContent'
 import ArticleContent from '@/components/content/ArticleContent'
 import ArticleListContent from '@/components/content/ArticleListContent'
 import TimeLineContent from '@/components/content/TimeLineContent'
-import SearchResultContent from '@/components/content/SearchResultContent'
 
 Vue.use(Router)
 
@@ -69,18 +68,6 @@ let router = new Router({
           },
           meta: {
             title: '博文列表'
-          }
-        },
-        {
-          path: 'articles/search',
-          name: 'search',
-          components: {
-            header: SimpleHeader,
-            content: SearchResultContent,
-            footer: CommonFooter
-          },
-          meta: {
-            title: '博文搜索'
           }
         },
         {
