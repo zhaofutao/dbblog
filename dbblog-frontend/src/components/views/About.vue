@@ -11,34 +11,34 @@
     <h4>技能值</h4>
     <div class="progresses">
       <iv-row :gutter="20">
-        <iv-col :span="8">
+        <iv-col :span="9">
           <p class="title">Java</p>
         </iv-col>
-        <iv-col :span="16">
+        <iv-col :span="15">
           <iv-progress status="normal" :hide-info="true" :stroke-width="8" :percent="60" class="bar"></iv-progress>
         </iv-col>
       </iv-row>
       <iv-row :gutter="20">
-        <iv-col :span="8">
+        <iv-col :span="9">
           <p class="title">SpringBoot</p>
         </iv-col>
-        <iv-col :span="16">
+        <iv-col :span="15">
           <iv-progress status="wrong" :hide-info="true" :stroke-width="8" :percent="40" class="bar"></iv-progress>
         </iv-col>
       </iv-row>
       <iv-row :gutter="20">
-        <iv-col :span="8">
+        <iv-col :span="9">
           <p class="title">ElasticSearch</p>
         </iv-col>
-        <iv-col :span="16">
+        <iv-col :span="15">
           <iv-progress status="success" :hide-info="true" :stroke-width="8" :percent="10" class="bar"></iv-progress>
         </iv-col>
       </iv-row>
       <iv-row :gutter="20">
-        <iv-col :span="8">
+        <iv-col :span="9">
           <p class="title">业务架构</p>
         </iv-col>
-        <iv-col :span="16">
+        <iv-col :span="15">
           <iv-progress status="active" :hide-info="true" :stroke-width="8" :percent="30" class="bar"></iv-progress>
         </iv-col>
       </iv-row>
